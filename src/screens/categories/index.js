@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function Categories() {
   return (
-    <View style={styles.container}>
-      
+    <View style={{marginTop: 400, justifyContent: 'center', alignItems: 'center'}}>
+          <Text>Lista de categorias</Text>
     </View>
   );
 }
